@@ -122,8 +122,11 @@ function App() {
           <div className="small-light green-light"></div>
         </div>
 
-        {/* Display the page header. */}
-        <PageHeader />
+        {/* Display the page header and problem statement. */}
+        <PageHeader
+          title="Pokedex Explorer"
+          description="Pokemon fans and beginners can have trouble finding basic information about different Pokemon in one place. This app makes it easier to search Pokemon and learn about their types, abilities, and stats."
+        />
 
         {/* Main Pokedex screen. */}
         <main className="pokedex-screen">
